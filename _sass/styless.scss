@@ -1,0 +1,745 @@
+* {max-width: 100%;}
+
+.highlight .highlight{overflow: auto;}
+.highlight table td { padding: 5px; padding: 0.3125rem}
+.highlight table pre { margin: 0; }
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .c, .highlight .cd {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+.highlight .ge {
+  color: #000000;
+  font-style: italic;
+}
+.highlight .gr {
+  color: #aa0000;
+}
+.highlight .gh {
+  color: #999999;
+}
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .gt {
+  color: #aa0000;
+}
+.highlight .kc {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kd {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kn {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kp {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kr {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kv {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .mf {
+  color: #009999;
+}
+.highlight .mh {
+  color: #009999;
+}
+.highlight .il {
+  color: #009999;
+}
+.highlight .mi {
+  color: #009999;
+}
+.highlight .mo {
+  color: #009999;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #009999;
+}
+.highlight .sb {
+  color: #d14;
+}
+.highlight .sc {
+  color: #d14;
+}
+.highlight .sd {
+  color: #d14;
+}
+.highlight .s2 {
+  color: #d14;
+}
+.highlight .se {
+  color: #d14;
+}
+.highlight .sh {
+  color: #d14;
+}
+.highlight .si {
+  color: #d14;
+}
+.highlight .sx {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #d14;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .s {
+  color: #d14;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .bp {
+  color: #999999;
+}
+.highlight .nb {
+  color: #0086B3;
+}
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nl {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .vc {
+  color: #008080;
+}
+.highlight .vg {
+  color: #008080;
+}
+.highlight .vi {
+  color: #008080;
+}
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .o {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbbbbb;
+}
+.highlight {
+  background-color: #f8f8f8;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: rgb(140, 140, 250);
+  }
+  ::-webkit-scrollbar-track-piece {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+  }
+  embed[type="application/pdf"] {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.9 0.09999999999999998" /><feFuncG type="table" tableValues="0.9 0.09999999999999998" /><feFuncB type="table" tableValues="0.9 0.09999999999999998" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: invert(90%);
+    filter: invert(90%);
+    -webkit-filter: invert;
+    filter: invert;
+  }
+
+  html {
+    color: rgb(191, 191, 191);
+    background: rgb(31, 31, 31) !important;
+  }
+  body {
+    background-color: rgb(31, 31, 31);
+  }
+  input,
+  select,
+  textarea,
+  button {
+    color: rgb(191, 191, 191);
+    background-color: rgb(31, 31, 31);
+  }
+  font {
+    color: rgb(191, 191, 191);
+  }
+
+  html {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" intercept="0" /><feFuncG type="linear" slope="1" intercept="0" /><feFuncB type="linear" slope="1" intercept="0" /></feComponentTransfer><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1.01 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    -webkit-filter: contrast(100%) brightness(100%) saturate(100%);
+    filter: contrast(100%) brightness(100%) saturate(100%);
+    filter: progid:DXImageTransform.Microsoft.Light();
+  }
+
+  .highlight .highlight{border: 1px solid gray;}
+
+  .highlight table td {
+    padding: 5px;
+    padding: 0.3125rem;
+  }
+  .highlight table pre {
+    margin: 0px;
+  }
+  .highlight .cm {
+    color: rgb(196, 196, 186);
+    font-style: italic;
+  }
+  .highlight .cp {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .c1 {
+    color: rgb(196, 196, 186);
+    font-style: italic;
+  }
+  .highlight .cs {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+    font-style: italic;
+  }
+  .highlight .c,
+  .highlight .cd {
+    color: rgb(196, 196, 186);
+    font-style: italic;
+  }
+  .highlight .err {
+    color: rgb(230, 153, 153);
+    background-color: rgb(75, 47, 47);
+  }
+  .highlight .gd {
+    color: rgb(191, 191, 191);
+    background-color: rgb(69, 17, 17);
+  }
+  .highlight .ge {
+    color: rgb(191, 191, 191);
+    font-style: italic;
+  }
+  .highlight .gr {
+    color: rgb(230, 153, 153);
+  }
+  .highlight .gh {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gi {
+    color: rgb(191, 191, 191);
+    background-color: rgb(17, 69, 17);
+  }
+  .highlight .go {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gp {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gs {
+    font-weight: bold;
+  }
+  .highlight .gu {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gt {
+    color: rgb(230, 153, 153);
+  }
+  .highlight .kc {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kd {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kn {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kp {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kr {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kt {
+    color: rgb(170, 181, 212);
+    font-weight: bold;
+  }
+  .highlight .k,
+  .highlight .kv {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .mf {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .mh {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .il {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .mi {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .mo {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .m,
+  .highlight .mb,
+  .highlight .mx {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .sb {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sc {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sd {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .s2 {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .se {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sh {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .si {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sx {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sr {
+    color: rgb(153, 230, 172);
+  }
+  .highlight .s1 {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .ss {
+    color: rgb(230, 153, 210);
+  }
+  .highlight .s {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .na {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .bp {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .nb {
+    color: rgb(153, 210, 230);
+  }
+  .highlight .nc {
+    color: rgb(170, 181, 212);
+    font-weight: bold;
+  }
+  .highlight .no {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .nd {
+    color: rgb(177, 205, 205);
+    font-weight: bold;
+  }
+  .highlight .ni {
+    color: rgb(230, 153, 230);
+  }
+  .highlight .ne {
+    color: rgb(230, 153, 153);
+    font-weight: bold;
+  }
+  .highlight .nf {
+    color: rgb(230, 153, 153);
+    font-weight: bold;
+  }
+  .highlight .nl {
+    color: rgb(230, 153, 153);
+    font-weight: bold;
+  }
+  .highlight .nn {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .nt {
+    color: rgb(153, 153, 230);
+  }
+  .highlight .vc {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .vg {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .vi {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .nv {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .ow {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .o {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .w {
+    color: rgb(191, 191, 191);
+  }
+  .highlight {
+    background-color: rgb(33, 33, 33);
+  }
+}
+
+.dark {
+  color: rgb(191, 191, 191);
+  background: rgb(31, 31, 31) !important;
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" intercept="0" /><feFuncG type="linear" slope="1" intercept="0" /><feFuncB type="linear" slope="1" intercept="0" /></feComponentTransfer><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1.01 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+  -webkit-filter: contrast(100%) brightness(100%) saturate(100%);
+  filter: contrast(100%) brightness(100%) saturate(100%);
+  filter: progid:DXImageTransform.Microsoft.Light();
+
+  body {
+    background-color: rgb(31, 31, 31);
+  }
+
+  a {
+    color: rgb(140, 140, 250);
+  }
+  ::-webkit-scrollbar-track-piece {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+  }
+  embed[type="application/pdf"] {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.9 0.09999999999999998" /><feFuncG type="table" tableValues="0.9 0.09999999999999998" /><feFuncB type="table" tableValues="0.9 0.09999999999999998" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: invert(90%);
+    filter: invert(90%);
+    -webkit-filter: invert;
+    filter: invert;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    color: rgb(191, 191, 191);
+    background-color: rgb(31, 31, 31);
+  }
+  font {
+    color: rgb(191, 191, 191);
+  }
+
+  .highlight .highlight{border: 1px solid gray;}
+
+  .highlight table td {
+    padding: 5px;
+    padding: 0.3125rem;
+  }
+  .highlight table pre {
+    margin: 0px;
+  }
+  .highlight .cm {
+    color: rgb(196, 196, 186);
+    font-style: italic;
+  }
+  .highlight .cp {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .c1 {
+    color: rgb(196, 196, 186);
+    font-style: italic;
+  }
+  .highlight .cs {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+    font-style: italic;
+  }
+  .highlight .c,
+  .highlight .cd {
+    color: rgb(196, 196, 186);
+    font-style: italic;
+  }
+  .highlight .err {
+    color: rgb(230, 153, 153);
+    background-color: rgb(75, 47, 47);
+  }
+  .highlight .gd {
+    color: rgb(191, 191, 191);
+    background-color: rgb(69, 17, 17);
+  }
+  .highlight .ge {
+    color: rgb(191, 191, 191);
+    font-style: italic;
+  }
+  .highlight .gr {
+    color: rgb(230, 153, 153);
+  }
+  .highlight .gh {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gi {
+    color: rgb(191, 191, 191);
+    background-color: rgb(17, 69, 17);
+  }
+  .highlight .go {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gp {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gs {
+    font-weight: bold;
+  }
+  .highlight .gu {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .gt {
+    color: rgb(230, 153, 153);
+  }
+  .highlight .kc {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kd {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kn {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kp {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kr {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .kt {
+    color: rgb(170, 181, 212);
+    font-weight: bold;
+  }
+  .highlight .k,
+  .highlight .kv {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .mf {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .mh {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .il {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .mi {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .mo {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .m,
+  .highlight .mb,
+  .highlight .mx {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .sb {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sc {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sd {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .s2 {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .se {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sh {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .si {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sx {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .sr {
+    color: rgb(153, 230, 172);
+  }
+  .highlight .s1 {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .ss {
+    color: rgb(230, 153, 210);
+  }
+  .highlight .s {
+    color: rgb(230, 153, 172);
+  }
+  .highlight .na {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .bp {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .nb {
+    color: rgb(153, 210, 230);
+  }
+  .highlight .nc {
+    color: rgb(170, 181, 212);
+    font-weight: bold;
+  }
+  .highlight .no {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .nd {
+    color: rgb(177, 205, 205);
+    font-weight: bold;
+  }
+  .highlight .ni {
+    color: rgb(230, 153, 230);
+  }
+  .highlight .ne {
+    color: rgb(230, 153, 153);
+    font-weight: bold;
+  }
+  .highlight .nf {
+    color: rgb(230, 153, 153);
+    font-weight: bold;
+  }
+  .highlight .nl {
+    color: rgb(230, 153, 153);
+    font-weight: bold;
+  }
+  .highlight .nn {
+    color: rgb(191, 191, 191);
+  }
+  .highlight .nt {
+    color: rgb(153, 153, 230);
+  }
+  .highlight .vc {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .vg {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .vi {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .nv {
+    color: rgb(153, 230, 230);
+  }
+  .highlight .ow {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .o {
+    color: rgb(191, 191, 191);
+    font-weight: bold;
+  }
+  .highlight .w {
+    color: rgb(191, 191, 191);
+  }
+  .highlight {
+    background-color: rgb(33, 33, 33);
+  }
+}
